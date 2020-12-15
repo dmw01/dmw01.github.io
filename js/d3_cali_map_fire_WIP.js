@@ -3,8 +3,6 @@
 function run_d3 () {
 
     var inputValue = null;
-    // var year = ["2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011",
-    //             "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"];
     var year = ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"];
 
     // Width and Height of the whole visualization
@@ -32,7 +30,7 @@ function run_d3 () {
         .center( [-120, 37] )
         .translate( [width/2,height/2] );
 
-    
+
     // Create GeoPath function that uses built-in D3 functionality to turn
     // lat/lon coordinates into screen coordinates
     var geoPath = d3.geoPath()
