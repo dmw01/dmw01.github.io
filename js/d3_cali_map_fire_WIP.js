@@ -24,6 +24,7 @@ function run_d3 () {
     // g will contain geometry elements
     var g = svg.append( "g" );
 
+    
     // Width and Height of the whole visualization
     // Set Projection Parameters
     var mercatorProjection = d3.geoMercator()
